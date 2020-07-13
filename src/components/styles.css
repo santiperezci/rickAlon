@@ -1,0 +1,115 @@
+.App {
+    display: flex;
+    flex-direction: row;
+}
+
+.Body {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    width: 85%;
+}
+
+.Button {
+    display: flex;
+    justify-content: center;
+
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 1.2em;
+    width: 50px;
+    margin: 10px;
+    padding: 5px;
+    box-shadow: 3px 3px 3px grey;
+}
+
+.Button:hover {
+    cursor: pointer;
+}
+
+.ButtonSelected {
+    display: flex;
+    justify-content: center;
+
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 1.2em;
+    width: 50px;
+    margin: 10px;
+    padding: 5px;
+    box-shadow: 3px 3px 3px grey;
+    background-color: lightgrey;
+}
+
+.ButtonSelected:hover {
+    cursor: pointer;
+}
+
+.Character {
+    border: 1px solid black;
+    width: 20%;
+    height: 350px;
+    margin: 10px;
+    padding: 5px;
+    box-shadow: 3px 3px 3px grey;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+.Character:hover {
+    cursor: pointer;
+}
+
+.CharacterDetails {
+    border: 1px solid black;
+    width: 90%;
+    margin: 10px;
+    padding: 5px;
+    box-shadow: 3px 3px 3px grey;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+.CharacterImg {
+    width: 100%;
+    height: 80%;
+    object-fit: cover;
+}
+.CharacterDetailsImg {
+    width: 100%;
+    object-fit: contain;
+}
+
+.MagnifyingGlass {
+    font-size: 1.2em;
+}
+
+.MagnifyingGlass:hover {
+    cursor: pointer;
+}
+
+.Right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    border: 1px solid black;
+    width: 15%;
+}
+
+.SearchBar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.Search {
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 1.2em;
+    width: 170px;
+    margin: 10px;
+    padding: 5px;
+    box-shadow: 3px 3px 3px grey;
+}
